@@ -1,0 +1,22 @@
+{
+  "name": "ejercicio-migraciones",
+  "version": "1.0.0",
+  "description": "Codigos de instalacion:\r     1. npm init -y\r     2. npm install npm install express mysql2 sequelize nodemon dotenv sequelize-cli\r     3. npx sequelize-cli init\r     4. npx sequelize-cli model:generate --name Publicacion --attributes titulo:string,contenido:text,autor:string,fecha:date\r     5. npx sequelize-cli db:migrate\r     6. npx sequelize-cli seed:generate --name demo-publicaciones\r     7. npx sequelize-cli db:seed:all",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "install": "^0.13.0",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7",
+    "npm": "^10.9.1",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2"
+  }
+}
